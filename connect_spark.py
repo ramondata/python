@@ -27,17 +27,3 @@ class session:
 
 	def show(self, limit):
 		return self.__dado.show(limit, truncate=False)
-
-	def main(self):
-		print("inicio do baile")
-		open_session()
-		read_file("/Users/ramon/Documents/Dados/ovni.csv")
-		show(35)
-		print("fim do baile")
-
-
-if(__name__ != "__main__"):
-	pass
-else:
-	obj1 = session()
-	obj1.main()
