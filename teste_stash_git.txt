@@ -1,1 +1,1 @@
-testando o git stash
+testando o git stash que guarda alterações para depois
