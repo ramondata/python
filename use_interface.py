@@ -15,7 +15,7 @@ class usaInterface(interface):
         return "dado cheio de classe"
 
 
-    def __len__(self):
+    def __len__(self) -> len:
         return self._data.__len__()
 
 
