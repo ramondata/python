@@ -1,10 +1,10 @@
 from mrjob.job import MRJob
- import re
+import re
 
- palavra_regex = re.compile(r"[\w']+")
+palavra_regex = re.compile(r"[\w']+")
 
 
- class QuantidadePalavras(MRJob):
+class QuantidadePalavras(MRJob):
     def mapper(self, _, linha):
         for p in palavra_regex.findall(linha):
             yield (p.lower(), 1)
