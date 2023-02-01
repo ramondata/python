@@ -1,4 +1,4 @@
-########## Aula 1: Curiosidades da linguagem Python
+# Aula 1: Curiosidades da linguagem Python
 
 import this
 
