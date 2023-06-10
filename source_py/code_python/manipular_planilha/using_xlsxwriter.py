@@ -8,7 +8,7 @@ class cria_planilha_nova:
 
 
     def __init__(self):
-        self._path_nome_planilha = "/Users/ramon/codes/membros_da_familia.xlsx"
+        self._path_nome_planilha = "/Users/ramon/codes/data/membros_da_familia.xlsx"
         self._workbook = xlsxwriter.Workbook(self._path_nome_planilha)
         self._worksheet = None
 
